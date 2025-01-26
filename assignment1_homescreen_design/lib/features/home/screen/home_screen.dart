@@ -1,3 +1,4 @@
+import 'package:assignment1_homescreen_design/features/home/widget/botto_nav_bar.dart';
 import 'package:assignment1_homescreen_design/features/home/widget/category_section.dart';
 import 'package:assignment1_homescreen_design/features/home/widget/search_section.dart';
 import 'package:flutter/material.dart';
@@ -39,6 +40,7 @@ class _HomeScreenState extends State<HomeScreen> {
             ],
           ),
         ),
+        bottomNavigationBar: BottomNavBar(),
       ),
     );
   }
