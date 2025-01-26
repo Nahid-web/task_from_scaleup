@@ -28,15 +28,15 @@ class GreetingSection extends StatelessWidget {
           ],
         ),
         Container(
-          width: 70, // Outer container width
+          width: 70,
           height: 70,
           decoration: BoxDecoration(
             shape: BoxShape.circle,
             boxShadow: [
               BoxShadow(
-                color: Colors.blue.withAlpha(100), // Shadow color
-                blurRadius: 30, // Amount of blur
-                offset: Offset(0, 0), // Offset in x and y directions
+                color: Colors.blue.withAlpha(100),
+                blurRadius: 30,
+                offset: Offset(0, 0),
               ),
             ],
           ),
