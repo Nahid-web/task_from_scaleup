@@ -34,8 +34,8 @@ class GreetingSection extends StatelessWidget {
             shape: BoxShape.circle,
             boxShadow: [
               BoxShadow(
-                color: Colors.blue.withAlpha(76), // Shadow color
-                blurRadius: 20, // Amount of blur
+                color: Colors.blue.withAlpha(100), // Shadow color
+                blurRadius: 30, // Amount of blur
                 offset: Offset(0, 0), // Offset in x and y directions
               ),
             ],
