@@ -1,3 +1,4 @@
+import 'package:assignment1_homescreen_design/features/home/widget/category_chips.dart';
 import 'package:flutter/material.dart';
 
 class CategorySection extends StatelessWidget {
@@ -8,11 +9,22 @@ class CategorySection extends StatelessWidget {
     return Column(
       children: [
         Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            Text("Categories"),
-            Text("See More"),
+            Text(
+              "Categories",
+              style: Theme.of(context).textTheme.titleLarge,
+            ),
+            Text(
+              "See More",
+              style: Theme.of(context).textTheme.titleMedium,
+            ),
           ],
-        )
+        ),
+        const SizedBox(
+          height: 10,
+        ),
+        CategoryChips(),
       ],
     );
   }

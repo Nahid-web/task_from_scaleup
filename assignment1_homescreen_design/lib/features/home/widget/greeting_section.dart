@@ -17,18 +17,13 @@ class GreetingSection extends StatelessWidget {
           children: [
             Text(
               'Hello $name',
-              style: TextStyle(
-                fontSize: 25,
-                fontWeight: FontWeight.bold,
-                color: Colors.white,
-              ),
+              style: Theme.of(context).textTheme.titleLarge!.copyWith(
+                    fontSize: 25,
+                  ),
             ),
             Text(
               "Let's watch today",
-              style: TextStyle(
-                fontSize: 14,
-                color: Colors.grey,
-              ),
+              style: Theme.of(context).textTheme.titleSmall,
             ),
           ],
         ),

@@ -17,6 +17,13 @@ class MyApp extends StatelessWidget {
         textTheme: TextTheme(
           titleLarge: TextStyle(
             color: Colors.white,
+            fontWeight: FontWeight.w600,
+          ),
+          titleMedium: TextStyle(
+            color: Colors.white,
+          ),
+          titleSmall: TextStyle(
+            color: Colors.grey,
           ),
         ),
         useMaterial3: true,
