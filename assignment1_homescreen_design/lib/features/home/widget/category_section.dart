@@ -25,6 +25,16 @@ class CategorySection extends StatelessWidget {
           height: 10,
         ),
         CategoryChips(),
+        // display image in category
+        Container(
+          height: 200,
+          decoration: BoxDecoration(
+            image: DecorationImage(
+              image: AssetImage("assets/images/display_image.png"),
+              fit: BoxFit.contain,
+            ),
+          ),
+        ),
       ],
     );
   }

@@ -1,5 +1,7 @@
+import 'package:assignment1_homescreen_design/common/utils.dart';
 import 'package:assignment1_homescreen_design/features/home/widget/botto_nav_bar.dart';
 import 'package:assignment1_homescreen_design/features/home/widget/category_section.dart';
+import 'package:assignment1_homescreen_design/features/home/widget/movie_section.dart';
 import 'package:assignment1_homescreen_design/features/home/widget/search_section.dart';
 import 'package:flutter/material.dart';
 
@@ -19,38 +21,39 @@ class _HomeScreenState extends State<HomeScreen> {
       child: Scaffold(
         backgroundColor: Color(0xFF11161F),
         body: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 40),
-          child: Column(
-            children: [
-              //Greeting Section
-              GreetingSection(
-                name: "Rafsan",
-              ),
-
-              const SizedBox(
-                height: 20,
-              ),
-
-              // Search Bar Section
-              SearchSection(),
-              const SizedBox(
-                height: 20,
-              ),
-
-              // Category Section
-              CategorySection(),
-
-              // display image in category
-              Container(
-                height: 200,
-                decoration: BoxDecoration(
-                  image: DecorationImage(
-                    image: AssetImage("assets/images/display_image.png"),
-                    fit: BoxFit.contain,
-                  ),
+          padding: const EdgeInsets.fromLTRB(20, 40, 20, 0),
+          child: SingleChildScrollView(
+            child: Column(
+              children: [
+                //Greeting Section
+                GreetingSection(
+                  name: "Rafsan",
                 ),
-              ),
-            ],
+
+                const SizedBox(
+                  height: 20,
+                ),
+
+                // Search Bar Section
+                SearchSection(),
+                const SizedBox(
+                  height: 20,
+                ),
+
+                // Category Section
+                CategorySection(),
+
+                const SizedBox(
+                  height: 20,
+                ),
+
+                //Trending Section
+                MovieSection(
+                  title: "Trending Section",
+                  movieImages: trendingMovieImages,
+                ),
+              ],
+            ),
           ),
         ),
         bottomNavigationBar: BottomNavBar(),
