@@ -14,6 +14,11 @@ class MyApp extends StatelessWidget {
       title: 'Assignment Home Page',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
+        textTheme: TextTheme(
+          titleLarge: TextStyle(
+            color: Colors.white,
+          ),
+        ),
         useMaterial3: true,
       ),
       home: HomeScreen(),

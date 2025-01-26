@@ -33,20 +33,20 @@ class GreetingSection extends StatelessWidget {
           ],
         ),
         Container(
-          width: 100, // Outer container width
-          height: 100,
+          width: 70, // Outer container width
+          height: 70,
           decoration: BoxDecoration(
             shape: BoxShape.circle,
             boxShadow: [
               BoxShadow(
-                color: Colors.lightBlueAccent.withAlpha(40), // Shadow color
-                blurRadius: 50, // Amount of blur
+                color: Colors.blue.withAlpha(76), // Shadow color
+                blurRadius: 20, // Amount of blur
                 offset: Offset(0, 0), // Offset in x and y directions
               ),
             ],
           ),
           child: CircleAvatar(
-            radius: 35,
+            radius: 30,
             backgroundImage: AssetImage(
               'assets/images/profile.jpg',
             ),
