@@ -36,7 +36,20 @@ class _HomeScreenState extends State<HomeScreen> {
               const SizedBox(
                 height: 20,
               ),
+
+              // Category Section
               CategorySection(),
+
+              // display image in category
+              Container(
+                height: 200,
+                decoration: BoxDecoration(
+                  image: DecorationImage(
+                    image: AssetImage("assets/images/display_image.png"),
+                    fit: BoxFit.contain,
+                  ),
+                ),
+              ),
             ],
           ),
         ),
