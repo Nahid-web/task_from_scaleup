@@ -22,3 +22,9 @@ Map<String, String> recommendedMovieImages = {
   "Curse Of The River": "assets/images/recommended_movies/recommended_2.png",
   "Sunita": "assets/images/recommended_movies/recommended_3.png",
 };
+Map<String, String> watchingMovieImages = {
+  "Wednesday I Season = 1 | Episode -3 ":
+      "assets/images/continue_watching/watching_1.png",
+  "Emily in Paris | Season - 1 | Episode -1":
+      "assets/images/continue_watching/watching_2.png",
+};

@@ -61,6 +61,7 @@ flutter:
     - assets/images/
     - assets/images/trending_movies/
     - assets/images/recommended_movies/
+    - assets/images/continue_watching/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
