@@ -105,3 +105,6 @@ lib/
 
 ## Screenshots
 Include screenshots of the app to demonstrate the design.
+![image](https://github.com/user-attachments/assets/d7bd554a-9dbe-446f-9584-37f4d2d93a59)
+![image](https://github.com/user-attachments/assets/8ca69afd-3bca-4e00-97cd-e230ea9d91f0)
+
