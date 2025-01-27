@@ -14,7 +14,7 @@ class MovieCard extends StatelessWidget {
     return Column(
       children: [
         Container(
-          width: 100,
+          width: 120,
           height: 200,
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(12),

@@ -52,6 +52,16 @@ class _HomeScreenState extends State<HomeScreen> {
                   title: "Trending Section",
                   movieImages: trendingMovieImages,
                 ),
+
+                const SizedBox(
+                  height: 20,
+                ),
+
+                // Recommended For You
+                MovieSection(
+                  title: "Recommended For You",
+                  movieImages: recommendedMovieImages,
+                ),
               ],
             ),
           ),
