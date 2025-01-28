@@ -120,6 +120,10 @@ GET https://jsonplaceholder.typicode.com/posts
 Include screenshots of the app to demonstrate:
 
 - Online mode (data fetched from API).
+- ![image](https://github.com/user-attachments/assets/99ba1f2e-10f6-459b-8cfb-2d4ca39c164a)
+
 - Offline mode (data loaded from cache).
+- ![image](https://github.com/user-attachments/assets/03000b74-2830-499f-9517-daaece7fdc16)
+
 
 ---
